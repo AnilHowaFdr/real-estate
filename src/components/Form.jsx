@@ -1,4 +1,15 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Form = () => {
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 200,
+    });
+  }, []);
   return (
     <section className="bg-brand">
       <div
