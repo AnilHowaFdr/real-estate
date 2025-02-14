@@ -1,4 +1,4 @@
-import { propertyInfo } from "../assets/assets";
+import { propertyInfo } from "../../assets/assets";
 
 const Property = () => {
   return (

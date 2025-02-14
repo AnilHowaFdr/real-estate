@@ -1,7 +1,7 @@
-import Form from "./components/Form";
-import Header from "./components/Header";
-import Property from "./components/Property";
-import PropertyList from "./components/PropertyList";
+import Form from "./components/home/Form";
+import Header from "./components/home/Header";
+import Property from "./components/home/Property";
+import PropertyList from "./components/home/PropertyList";
 
 const App = () => {
   return (

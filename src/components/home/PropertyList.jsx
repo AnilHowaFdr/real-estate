@@ -1,5 +1,5 @@
 import { FaLocationDot } from "react-icons/fa6";
-import { propertyList } from "../assets/assets";
+import { propertyList } from "../../assets/assets";
 
 const PropertyList = () => {
   return (

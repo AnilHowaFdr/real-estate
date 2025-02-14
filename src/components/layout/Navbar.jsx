@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { assets } from "../assets/assets.js";
+import { assets } from "../../assets/assets.js";
 import { useEffect } from "react";
 
 const Navbar = () => {
@@ -22,19 +22,34 @@ const Navbar = () => {
           <img src={assets.logo2} alt="logo" className="w-full" />
         </div>
         <ul className="hidden md:flex gap-5 lg:gap-8 text-dark text-lg font-semibold">
-          <a href="#Header" className="cursor-pointer  hover:text-brand">
+          <a
+            href="#Header"
+            className="cursor-pointer  hover:text-black hover:underline"
+          >
             Home
           </a>
-          <a href="#About" className="cursor-pointer  hover:text-brand">
+          <a
+            href="#About"
+            className="cursor-pointer  hover:text-black hover:underline"
+          >
             About
           </a>
-          <a href="#Property" className="cursor-pointer  hover:text-brand">
+          <a
+            href="#Property"
+            className="cursor-pointer  hover:text-black hover:underline"
+          >
             Property
           </a>
-          <a href="#Pages" className="cursor-pointer  hover:text-brand">
+          <a
+            href="#Pages"
+            className="cursor-pointer  hover:text-black hover:underline"
+          >
             Pages
           </a>
-          <a href="#Contact" className="cursor-pointer  hover:text-brand">
+          <a
+            href="#Contact"
+            className="cursor-pointer  hover:text-black hover:underline"
+          >
             Contact
           </a>
         </ul>
@@ -66,35 +81,35 @@ const Navbar = () => {
           <a
             href="#Header"
             onClick={() => setShow(false)}
-            className="hover:border-b-4 hover:border-2-dark px-4 py-2 inline-block"
+            className="hover:border-b-4 hover:border-2-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             Home
           </a>
           <a
             href="#About"
             onClick={() => setShow(false)}
-            className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block"
+            className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             About
           </a>
           <a
             href="#Property"
             onClick={() => setShow(false)}
-            className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block"
+            className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             Property
           </a>
           <a
             href="#Pages"
             onClick={() => setShow(false)}
-            className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block"
+            className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             Pages
           </a>
           <a
             href="#Contact"
             onClick={() => setShow(false)}
-            className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block"
+            className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             Contact
           </a>
