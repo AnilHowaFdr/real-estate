@@ -1,33 +1,29 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { propertyList } from "../assets/assets";
-import Property from "./Property";
 
 const PropertyList = () => {
   return (
     <section>
       <div
-        className="container mx-auto py-4 pt-20 px-6 md:px-20 lg:32px my-20 w-full overflow-hidden"
+        className="container  py-4 pt-20 px-6 md:px-20 lg:32px my-20 w-full overflow-hidden"
         id="Property"
       >
         <h2 className="heading2">Property Listing</h2>
-        <p className="mb-8 ">
+        <p className="mb-8 detail">
           Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
           lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.
         </p>
-        <div className="overflow-hidden">
-          <div className="flex gap-8 transition-transform duration-400 ease-in-out">
+        <div className="">
+          <div className="w-full items-center justify-between grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-7">
             {propertyList.map((property, index) => (
-              <div
-                key={index}
-                className="relative flex-shrink-0 w-full sm:w-1/4"
-              >
+              <div key={index} className="relative shadow-lg py-4 my-5 sm:my-0">
                 <img
                   src={property.img}
                   alt={property.title}
-                  className="w-full h-auto mb-14"
+                  className="w-full h-auto "
                 />
-                <div className="absolute left-0 right-0 bottom-5 justify-center">
-                  <div className="inline-block bg-white w-3/4 px-4 py-2 shadow-md">
+                <div className="absolute left-0 bottom-0 justify-center w-full">
+                  <div className="inline-block bg-white w-4/5 p-2 shadow-md">
                     <h4 className="text-base font-semibold text-brand">
                       {property.title} <span>|</span> {property.price}
                     </h4>

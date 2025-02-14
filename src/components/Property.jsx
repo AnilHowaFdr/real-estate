@@ -7,11 +7,10 @@ const Property = () => {
         className="container flex flex-col items-center justify-center mx-auto py-4 px-6 md:px-20 lg:px-32 my-20 w-full overflow-hidden"
         id="Property"
       >
-        <h2 className="heading2 text-center">Property Types</h2>
-        <p className="detail pt-2 w-auto text-center mb-8">
+        <h2 className="heading2">Property Types</h2>
+        <p className="mb-8 detail">
           Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore
-          lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero
-          dolor duo.
+          lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.
         </p>
         <div className="">
           <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 transition-transform duration-500 ease-in-out">
