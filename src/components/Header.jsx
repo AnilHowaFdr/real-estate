@@ -22,7 +22,7 @@ const Header = () => {
       <div className="container mx-auto py-4 px-6 md:px-20 lg:px-32 text-white">
         <h1
           data-aos="zoom-in"
-          className="text-light text-5xl sm:text-6xl md:text-7xl font-bold max-w-3xl pt-20"
+          className="text-light text-5xl sm:text-6xl md:text-7xl tracking-wider font-bold max-w-3xl pt-20"
         >
           Find A <span className="text-brand">Perfect Home</span> To Live With
           Your Family

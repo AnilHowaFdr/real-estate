@@ -17,9 +17,11 @@ const Navbar = () => {
   }, [show]);
   return (
     <div className="absolute top-0 left-0 w-full z-10">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
-        <img src={assets.logo2} alt="logo" />
-        <ul className="hidden md:flex gap-7 text-dark">
+      <div className="container flex justify-between items-center py-6 px-6 md:px-20 lg:px-32 bg-transparent">
+        <div>
+          <img src={assets.logo2} alt="logo" className="w-full" />
+        </div>
+        <ul className="hidden md:flex gap-5 lg:gap-8 text-dark text-lg font-semibold">
           <a href="#Header" className="cursor-pointer  hover:text-brand">
             Home
           </a>
@@ -36,7 +38,7 @@ const Navbar = () => {
             Contact
           </a>
         </ul>
-        <button className="hidden md:block bg-white px-8 py-2 text-dark rounded-full">
+        <button className="hidden text-lg font-semibold md:block bg-white px-4 py-2 text-dark rounded-full hover:bg-dark hover:text-white">
           Sign Up
         </button>
         <img
@@ -97,6 +99,9 @@ const Navbar = () => {
             Contact
           </a>
         </ul>
+        <button className="block text-lg mt-4 bg-white px-8 py-2 text-dark m-auto cursor-pointer rounded-full hover:bg-dark hover:text-white">
+          Sign Up
+        </button>
       </div>
     </div>
   );
