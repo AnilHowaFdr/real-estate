@@ -1,8 +1,9 @@
 import React from "react";
 
-const PropertyDetails = () => {
+import { FaLocationDot } from "react-icons/fa6";
+const PropertyDetails = ({ property, index }) => {
   return (
-    <div key={index} className="relative shadow-lg py-4 my-5 sm:my-0">
+    <div className="relative shadow-lg py-4 my-5 sm:my-0">
       <img src={property.img} alt={property.title} className="w-full h-auto " />
       <div className="absolute left-0 bottom-0 justify-center w-full">
         <div className="inline-block bg-white w-4/5 p-2 shadow-md">

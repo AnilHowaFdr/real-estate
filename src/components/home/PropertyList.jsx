@@ -1,6 +1,5 @@
-import { FaLocationDot } from "react-icons/fa6";
+import PropertyDetails from "./PropertyDetails";
 import { propertyList } from "../../assets/assets";
-
 const PropertyList = () => {
   return (
     <section>
@@ -16,30 +15,7 @@ const PropertyList = () => {
         <div className="">
           <div className="w-full items-center justify-between grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-7">
             {propertyList.map((property, index) => (
-              <div key={index} className="relative shadow-lg py-4 my-5 sm:my-0">
-                <img
-                  src={property.img}
-                  alt={property.title}
-                  className="w-full h-auto "
-                />
-                <div className="absolute left-0 bottom-0 justify-center w-full">
-                  <div className="inline-block bg-white w-4/5 p-2 shadow-md">
-                    <h4 className="text-base font-semibold text-brand">
-                      {property.title} <span>|</span> {property.price}
-                    </h4>
-                    <h3 className="text-xl font-semibold text-dark py-2">
-                      {property.heading}
-                    </h3>
-
-                    <p className="text-base font-normal text-gray flex items-center gap-1">
-                      <span className="text-brand text-lg">
-                        <FaLocationDot />
-                      </span>
-                      {property.location}
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <PropertyDetails key={index} property={property} />
             ))}
           </div>
         </div>
