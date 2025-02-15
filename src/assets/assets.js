@@ -152,9 +152,9 @@ export const propertyList = [
   {
     img: property_2,
     title: "Villa",
-    price: "$12345",
-    heading: "Golden Urban House For Sell",
-    location: "123 Street, New York, USA",
+    price: "$23451",
+    heading: " House For Sell",
+    location: "93 Street, New York, USA",
     detail: "123 Properties",
   },
 
@@ -185,7 +185,7 @@ export const propertyList = [
   {
     img: property_6,
     title: "Shop",
-    price: "$12345",
+    price: "$3154.00",
     heading: "Golden Urban House For Sell",
     location: "123 Street, New York, USA",
     detail: "123 Properties",

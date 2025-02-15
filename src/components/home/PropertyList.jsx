@@ -1,6 +1,17 @@
 import PropertyDetails from "./PropertyDetails";
 import { propertyList } from "../../assets/assets";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const PropertyList = () => {
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100,
+    });
+  }, []);
   return (
     <section>
       <div
