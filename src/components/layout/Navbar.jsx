@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { assets } from "../../assets/assets.js";
 import { useEffect } from "react";
-
+import { HashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
   const [show, setShow] = useState(false);
 
@@ -19,39 +19,41 @@ const Navbar = () => {
     <div className="absolute top-0 left-0 w-full z-10">
       <div className="container flex justify-between items-center py-6 px-6 md:px-20 lg:px-32 bg-transparent">
         <div>
-          <img src={assets.logo2} alt="logo" className="w-full" />
+          <Link to="#">
+            <img src={assets.logo2} alt="logo" className="w-full" />
+          </Link>
         </div>
         <ul className="hidden md:flex gap-5 lg:gap-8 text-dark text-lg font-semibold">
-          <a
-            href="#Header"
+          <Link
+            to="#Header"
             className="cursor-pointer  hover:text-black hover:underline"
           >
             Home
-          </a>
-          <a
-            href="#About"
+          </Link>
+          <Link
+            to="#About"
             className="cursor-pointer  hover:text-black hover:underline"
           >
             About
-          </a>
-          <a
-            href="#Property"
+          </Link>
+          <Link
+            to="#Property"
             className="cursor-pointer  hover:text-black hover:underline"
           >
             Property
-          </a>
-          <a
-            href="#Pages"
+          </Link>
+          <Link
+            to="#Pages"
             className="cursor-pointer  hover:text-black hover:underline"
           >
             Pages
-          </a>
-          <a
-            href="#Contact"
+          </Link>
+          <Link
+            to="#Contact"
             className="cursor-pointer  hover:text-black hover:underline"
           >
             Contact
-          </a>
+          </Link>
         </ul>
         <button className="hidden text-lg font-semibold md:block bg-white px-4 py-2 text-dark rounded-full hover:bg-dark hover:text-white">
           Sign Up
@@ -78,41 +80,41 @@ const Navbar = () => {
           />
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium text-light transition-all">
-          <a
-            href="#Header"
+          <Link
+            to="#Header"
             onClick={() => setShow(false)}
             className="hover:border-b-4 hover:border-2-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             Home
-          </a>
-          <a
-            href="#About"
+          </Link>
+          <Link
+            to="#About"
             onClick={() => setShow(false)}
             className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             About
-          </a>
-          <a
-            href="#Property"
+          </Link>
+          <Link
+            to="#Property"
             onClick={() => setShow(false)}
             className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             Property
-          </a>
-          <a
-            href="#Pages"
+          </Link>
+          <Link
+            to="#Pages"
             onClick={() => setShow(false)}
             className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             Pages
-          </a>
-          <a
-            href="#Contact"
+          </Link>
+          <Link
+            to="#Contact"
             onClick={() => setShow(false)}
             className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
             Contact
-          </a>
+          </Link>
         </ul>
         <button className="block text-lg mt-4 bg-white px-8 py-2 text-dark m-auto cursor-pointer rounded-full hover:bg-dark hover:text-white">
           Sign Up

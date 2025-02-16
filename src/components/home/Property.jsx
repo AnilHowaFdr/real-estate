@@ -2,7 +2,7 @@ import { propertyInfo } from "../../assets/assets";
 
 const Property = () => {
   return (
-    <section className=" my-20">
+    <section id="property" className=" my-20">
       <div
         className="container py-4 px-6 md:px-20 lg:32px w-full"
         id="Property"
