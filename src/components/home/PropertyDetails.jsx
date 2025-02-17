@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FaLocationDot } from "react-icons/fa6";
-const PropertyDetails = ({ property, index }) => {
+const PropertyDetails = ({ property }) => {
   return (
     <div className="relative shadow-lg my-5 sm:my-0" data-aos="flip-left">
       <img src={property.img} alt={property.title} className="w-full h-auto " />

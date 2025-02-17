@@ -26,31 +26,31 @@ const Navbar = () => {
         <ul className="hidden md:flex gap-5 lg:gap-8 text-dark text-lg font-semibold">
           <Link
             to="#Header"
-            className="cursor-pointer  hover:text-black hover:underline"
+            className="cursor-pointer  hover:text-black hover:border-b-4  hover:border-2-dark"
           >
             Home
           </Link>
           <Link
             to="#About"
-            className="cursor-pointer  hover:text-black hover:underline"
+            className="cursor-pointer  hover:text-black hover:border-b-4  hover:border-2-dark"
           >
             About
           </Link>
           <Link
             to="#Property"
-            className="cursor-pointer  hover:text-black hover:underline"
+            className="cursor-pointer  hover:text-black hover:border-b-4  hover:border-2-dark"
           >
             Property
           </Link>
           <Link
             to="#Pages"
-            className="cursor-pointer  hover:text-black hover:underline"
+            className="cursor-pointer  hover:text-black hover:border-b-4  hover:border-2-dark"
           >
             Pages
           </Link>
           <Link
             to="#Contact"
-            className="cursor-pointer  hover:text-black hover:underline"
+            className="cursor-pointer  hover:text-black hover:border-b-4  hover:border-2-dark"
           >
             Contact
           </Link>
@@ -83,7 +83,7 @@ const Navbar = () => {
           <Link
             to="#Header"
             onClick={() => setShow(false)}
-            className="hover:border-b-4 hover:border-2-dark px-4 py-2 inline-block hover:text-black hover:underline"
+            className="hover:border-b-4  hover:border-2-dark px-4 py-2 inline-block hover:text-black "
           >
             Home
           </Link>
