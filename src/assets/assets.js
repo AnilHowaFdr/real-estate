@@ -32,6 +32,12 @@ import property_3 from "./propertyList/property_3.jpg";
 import property_4 from "./propertyList/property_4.jpg";
 import property_5 from "./propertyList/property_5.jpg";
 import property_6 from "./propertyList/property_6.jpg";
+import city_1 from "./city/location-1.jpg";
+import city_2 from "./city/location-2.jpg";
+import city_3 from "./city/location-3.jpg";
+import city_4 from "./city/location-4.jpg";
+import city_5 from "./city/location-5.jpg";
+import city_6 from "./city/location-6.jpg";
 import one from "./testimonials/one.jpg";
 import two from "./testimonials/two.jpg";
 import three from "./testimonials/three.jpg";
@@ -189,5 +195,47 @@ export const propertyList = [
     heading: "Golden Urban House For Sell",
     location: "123 Street, New York, USA",
     detail: "123 Properties",
+  },
+];
+export const cityList = [
+  {
+    img: city_1,
+    title: "NaperVille",
+    detail: "321 property",
+  },
+  {
+    img: city_2,
+    title: "Pembroke Pines",
+    detail: "321 property",
+  },
+  {
+    img: city_3,
+    title: "Toledo",
+    detail: "321 property",
+  },
+  {
+    img: city_4,
+    title: "Orange",
+    detail: "321 property",
+  },
+  {
+    img: city_5,
+    title: "NaperVille",
+    detail: "321 property",
+  },
+  {
+    img: city_6,
+    title: "Pembroke Pines",
+    detail: "321 property",
+  },
+  {
+    img: city_1,
+    title: "Toledo",
+    detail: "321 property",
+  },
+  {
+    img: city_2,
+    title: "Orange",
+    detail: "321 property",
   },
 ];

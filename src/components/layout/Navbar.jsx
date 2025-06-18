@@ -16,8 +16,8 @@ const Navbar = () => {
     };
   }, [show]);
   return (
-    <div className="fixed top-0 left-0 w-full z-10 shadow-md">
-      <div className="container flex justify-between items-center py-6 px-6 md:px-20 lg:px-32 bg-transparent">
+    <div className="fixed top-0 left-0 w-full z-10 shadow-md bg-brand">
+      <div className="container flex justify-between items-center py-6 px-4 md:px-6 ">
         <div>
           <Link to="#">
             <img src={assets.logo2} alt="logo" className="w-full" />

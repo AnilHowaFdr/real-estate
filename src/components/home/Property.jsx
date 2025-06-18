@@ -1,13 +1,9 @@
-
 import { propertyInfo } from "../../assets/assets";
 
 const Property = () => {
   return (
     <section id="property" className=" my-20">
-      <div
-        className="container py-4 px-6 md:px-20 lg:32px w-full"
-        id="Property"
-      >
+      <div className="container py-4  px-4 md:px-6 w-full" id="Property">
         <h2 className="heading2">Property Types</h2>
         <p className="mb-8 detail">
           Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore

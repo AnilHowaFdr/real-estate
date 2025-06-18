@@ -12,3 +12,12 @@
 .heading2 {
   @apply font-bold text-dark text-2xl sm:text-4xl mb-2;
 }
+/* .slick-dots li {
+  @apply w-4 h-4 rounded-full bg-blue-700;
+}
+.slick-dots li button:before {
+  @apply text-white;
+}
+.slick-dots li button {
+  @apply w-2 h-2 rounded-full bg-white;
+} */

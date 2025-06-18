@@ -15,7 +15,7 @@ const PropertyList = () => {
   return (
     <section>
       <div
-        className="container  py-4 pt-20 px-6 md:px-20 lg:32px my-20 w-full overflow-hidden"
+        className="container  py-4 pt-20  px-4 md:px-6  my-20 w-full overflow-hidden"
         id="Property"
       >
         <h2 className="heading2">Property Listing</h2>
