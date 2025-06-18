@@ -20,7 +20,7 @@ const Form = () => {
         <div className="w-full">
           <input
             type="text"
-            className="text-gray font-semibold bg-white p-4 text-lg rounded-md w-full mt-2"
+            className="text-gray font-semibold outline-none bg-white p-4 text-lg rounded-md w-full mt-2"
             placeholder="Search Keyword"
           />
         </div>
@@ -28,7 +28,7 @@ const Form = () => {
           <select
             name="selectOption"
             id="selectOption"
-            className="text-gray font-semibold bg-white px-4 py-5 text-lg rounded-md w-full mt-2"
+            className="text-gray font-semibold outline-none bg-white px-4 py-5 text-lg rounded-md w-full mt-2"
           >
             <option value="" disabled selected>
               Property Type
@@ -42,7 +42,7 @@ const Form = () => {
           <select
             name="selectOption"
             id="selectOption"
-            className="text-gray bg-white font-semibold p-5 text-lg rounded-md w-full mt-2"
+            className="text-gray bg-white font-semibold outline-none p-5 text-lg rounded-md w-full mt-2"
           >
             <option value="" disabled selected>
               Location

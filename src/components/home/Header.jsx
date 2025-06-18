@@ -14,12 +14,12 @@ const Header = () => {
 
   return (
     <div
-      className="h-[600px] bg-cover bg-center flex items-center w-full overflow-hidden"
+      className="h-[700px] bg-cover bg-center flex items-center w-full overflow-hidden"
       style={{ backgroundImage: "url('/banner.jpg')" }}
       id="Header"
     >
       <Navbar />
-      <div className="container mx-auto py-4 px-6 md:px-20 lg:px-32 text-white">
+      <div className="container mx-auto py-20 px-6 md:px-20 lg:px-32 text-white">
         <h1
           data-aos="zoom-in"
           className="text-light text-5xl sm:text-6xl md:text-7xl tracking-wider font-bold max-w-3xl pt-20"
@@ -29,7 +29,7 @@ const Header = () => {
         </h1>
         <p
           data-aos="zoom-in"
-          className="text-light font-normal py-9 text-lg leading-8"
+          className="text-light font-normal py-14 text-lg leading-8"
         >
           Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no.
           Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.

@@ -1,3 +1,4 @@
+
 import { propertyInfo } from "../../assets/assets";
 
 const Property = () => {

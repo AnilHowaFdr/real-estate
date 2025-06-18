@@ -1,3 +1,4 @@
+import City from "./components/home/City";
 import Form from "./components/home/Form";
 import Header from "./components/home/Header";
 import Property from "./components/home/Property";
@@ -10,6 +11,7 @@ const App = () => {
       <Form />
       <Property />
       <PropertyList />
+      <City />
     </div>
   );
 };
