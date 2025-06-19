@@ -40,7 +40,7 @@ const City = () => {
     ],
   };
   return (
-    <section id="property" className="py-20">
+    <section id="property" className="py-28">
       <div className="container mx-auto px-4 md:px-6">
         <h3 className="uppercase font-primary text-lg text-center font-medium text-primary">
           Explore cities
