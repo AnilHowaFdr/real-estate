@@ -1,6 +1,7 @@
 import Blog from "./components/home/Blog";
 import Choose from "./components/home/Choose";
 import City from "./components/home/City";
+import Contact from "./components/home/Contact";
 import Form from "./components/home/Form";
 import Header from "./components/home/Header";
 import Property from "./components/home/Property";
@@ -21,6 +22,7 @@ const App = () => {
       <Testimonial />
       <Team />
       <Blog />
+      <Contact />
       <Footer />
     </div>
   );
