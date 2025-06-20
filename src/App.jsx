@@ -1,3 +1,4 @@
+import Blog from "./components/home/Blog";
 import Choose from "./components/home/Choose";
 import City from "./components/home/City";
 import Form from "./components/home/Form";
@@ -18,6 +19,7 @@ const App = () => {
       <Choose />
       <Testimonial />
       <Team />
+      <Blog />
     </div>
   );
 };

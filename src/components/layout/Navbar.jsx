@@ -43,10 +43,10 @@ const Navbar = () => {
             Property
           </Link>
           <Link
-            to="#Pages"
+            to="#testimonial"
             className="cursor-pointer  hover:text-black hover:border-b-4  hover:border-2-dark"
           >
-            Pages
+            Testimonial
           </Link>
           <Link
             to="#Contact"
@@ -102,11 +102,11 @@ const Navbar = () => {
             Property
           </Link>
           <Link
-            to="#Pages"
+            to="#testimonial"
             onClick={() => setShow(false)}
             className="hover:border-b-4 hover:border-dark px-4 py-2 inline-block hover:text-black hover:underline"
           >
-            Pages
+            Testimonial
           </Link>
           <Link
             to="#Contact"
