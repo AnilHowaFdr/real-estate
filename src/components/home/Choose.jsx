@@ -4,7 +4,7 @@ import ChooseItems from "./ChooseItems";
 
 const Choose = () => {
   return (
-    <section className="bg-blue-200 py-28">
+    <section className="bg-green-200 py-28">
       <div className="container flex flex-col md:flex-row px-4 md:px-6 items-center gap-10">
         <div>
           <img src={choose} alt="" />

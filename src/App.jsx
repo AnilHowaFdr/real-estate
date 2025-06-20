@@ -4,6 +4,7 @@ import Form from "./components/home/Form";
 import Header from "./components/home/Header";
 import Property from "./components/home/Property";
 import PropertyList from "./components/home/PropertyList";
+import Team from "./components/home/Team";
 import Testimonial from "./components/home/Testimonial";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <City />
       <Choose />
       <Testimonial />
+      <Team />
     </div>
   );
 };

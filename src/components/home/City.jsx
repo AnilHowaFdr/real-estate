@@ -40,13 +40,13 @@ const City = () => {
     ],
   };
   return (
-    <section id="property" className="py-28">
+    <section id="property" className="py-28 bg-blue-100">
       <div className="container mx-auto px-4 md:px-6">
         <h3 className="uppercase font-primary text-lg text-center font-medium text-primary">
           Explore cities
         </h3>
         <h2 className="heading2 text-center">Our Location For You</h2>
-        <div className="slider-container">
+        <div className="slider-container py-20">
           <Slider {...settings}>
             {cityList.map((item, key) => (
               <CityDetails data={item} key={item.key} />
