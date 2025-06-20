@@ -7,6 +7,7 @@ import Property from "./components/home/Property";
 import PropertyList from "./components/home/PropertyList";
 import Team from "./components/home/Team";
 import Testimonial from "./components/home/Testimonial";
+import Footer from "./components/layout/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Testimonial />
       <Team />
       <Blog />
+      <Footer />
     </div>
   );
 };

@@ -9,12 +9,20 @@ const BlogItems = ({ data }) => {
           January 28, 2025
         </span>
       </div>
-      <div className="py-7 px-3">
+      <div className="py-7 px-3 font-primary">
         <div className="flex items-center gap-3">
           <p className="font-semibold">Jerome Bell</p>
           <p>Furniture</p>
         </div>
-        <div></div>
+        <div>
+          <h5 className="pt-4 pb-2 text-2xl leading-9 font-medium">
+            Building gains into housing stocks and how to trade the sector
+          </h5>
+          <p className="text-[17px] ">
+            The average contract interest rate for 30-year fixed-rate mortgages
+            with conforming loan balances...
+          </p>
+        </div>
       </div>
     </div>
   );
